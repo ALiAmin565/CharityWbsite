@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Models\TopNav;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\InvoicesController;
 use App\Http\Controllers\UploadImageController;
 use App\Http\Controllers\VisionMessageRightController;
 use App\Http\Controllers\VisionMessageLeftController;
@@ -33,4 +35,7 @@ Route::post('/uploadImageSectionRight',[VisionMessageRightController::class,'sto
 Route::post('/uploadImageSectionLeft',[VisionMessageLeftController::class,'store'])->name('uploadImageSectionLeft');
 
 
-
+Route::resource('invoices', InvoicesController::class);
+Route::get('/{page}', [AdminController::class, 'index']);
+// Route::group(['middleware' => ['auth']], function () {
+// });

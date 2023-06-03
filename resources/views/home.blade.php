@@ -15,6 +15,7 @@
         margin-right: 10rem;
 
     }
+    
 </style>
 <main>
     @include('Include.slider')
