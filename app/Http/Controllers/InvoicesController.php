@@ -47,11 +47,11 @@ class InvoicesController extends Controller
 //     /**
 //      * Show the form for creating a new resource.
 //      */
-//     public function create()
-//     {
+    public function create()
+    {
 
-//         return view('invoices.add_invoice',);
-//     }
+        return view('invoices.add_invoice',);
+    }
 
 //     public function getProducts($id)
 //     {

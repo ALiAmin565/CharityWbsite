@@ -82,9 +82,9 @@
                             <select name="Section" class="form-control SlectBox" onclick="console.log($(this).val())" onchange="console.log('change is firing')">
                                 <!--placeholder-->
                                 <option value="" selected disabled>حدد القسم</option>
-                                @foreach ($sections as $section)
+                                {{-- @foreach ($sections as $section)
                                 <option value="{{ $section->id }}"> {{ $section->section_name }}</option>
-                                @endforeach
+                                @endforeach --}}
                             </select>
                         </div>
 

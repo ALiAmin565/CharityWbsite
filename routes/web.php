@@ -22,6 +22,8 @@ use App\Http\Controllers\VisionMessageLeftController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/payment', [HomeController::class, 'payment'])->name('payment');
+Route::get('/cash', [HomeController::class, 'cash'])->name('cash');
 
 
 Route::get('/upload', function(){
