@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\TopNav;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [TopNav::class,'index'])->name('home');
