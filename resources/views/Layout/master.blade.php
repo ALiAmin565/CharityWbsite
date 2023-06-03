@@ -21,7 +21,7 @@
 </head>
 
 <body id="section_1">
-    @include('Include.topNav')
+    @include('Include.TopNav')
     @include('Include.nav')
     @yield('content')
     @include('Include.footer')
