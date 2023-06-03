@@ -21,15 +21,19 @@
 
     <table class="table">
         <thead>
-          <tr>
+          {{-- <tr>
             <th scope="col">#</th>
             <th scope="col">اسم البنك</th>
             <th scope="col">اسم فرع البنك</th>
             <th scope="col">رقم الحساب الحالي</th>
             <th scope="col">رقم IBAN</th>
           </tr>
-        </thead>
+        </thead> --}}
         <tbody>
+            <tr>
+                <td>اسم البنك</td>
+                <td>البنك الأهلى المصرى</td>
+            </tr>
           <tr>
             <th scope="row">1</th>
             <td>البنك الأهلى المصرى</td>
@@ -44,7 +48,7 @@
             <td>3920001000019450</td>
             <td>EG420002039203920001000019450</td>
           </tr>
-        
+
         </tbody>
       </table>
 
