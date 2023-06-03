@@ -6,21 +6,21 @@
                 <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/slide/volunteer-helping-with-donation-box.jpg"
+                            <img src="{{ asset('imagesfb/'.$SliderImages->imageOne) }}"
                                 class="carousel-image img-fluid" alt="...">
 
 
                         </div>
 
                         <div class="carousel-item">
-                            <img src="images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg"
+                            <img src="{{ asset('imagesfb/'.$SliderImages->imageTwo) }}"
                                 class="carousel-image img-fluid" alt="...">
 
 
                         </div>
 
                         <div class="carousel-item">
-                            <img src="images/slide/medium-shot-people-collecting-donations.jpg"
+                            <img src="{{ asset('imagesfb/'.$SliderImages->imageThree) }}"
                                 class="carousel-image img-fluid" alt="...">
 
 

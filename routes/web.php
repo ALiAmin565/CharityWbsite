@@ -3,6 +3,10 @@
 use App\Models\TopNav;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UploadImageController;
+use App\Http\Controllers\VisionMessageRightController;
+use App\Http\Controllers\VisionMessageLeftController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +20,17 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+
+
+Route::get('/upload', function(){
+    return view('upload');
+})->name('upload');
+
+Route::post('/uploadImage',[UploadImageController::class,'upload'])->name('uploadImage');
+
+
+Route::post('/uploadImageSectionRight',[VisionMessageRightController::class,'store'])->name('uploadImageSectionRight');
+Route::post('/uploadImageSectionLeft',[VisionMessageLeftController::class,'store'])->name('uploadImageSectionLeft');
+
+
+

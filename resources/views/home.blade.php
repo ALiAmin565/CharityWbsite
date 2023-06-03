@@ -207,77 +207,10 @@
         </div>
     </section>
 
-    <section class="section-padding section-bg" id="section_2" style="direction: rtl;">
-        <div class="container">
-            <div class="row">
 
-                <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                    <img src="images/group-people-volunteering-foodbank-poor-people.jpg"
-                        class="custom-text-box-image img-fluid" alt="">
-                </div>
+    @include('Include.vision&message_right')
 
-                <div class="col-lg-6 col-12">
-                    <div class="custom-text-box">
-                        <h2 class="mb-2">الرؤية</h2>
-
-                        <h5 class="mb-3">saad charity</h5>
-
-                        <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae labore
-                            velit aspernatur, cum culpa est facilis, maiores, corporis aliquid molestiae sapiente eum
-                            cupiditate. Quae nesciunt consectetur sit corrupti, libero sint? .</p>
-                    </div>
-                    <div class="custom-text-box">
-                        <h2 class="mb-2">الرسالة</h2>
-
-                        <h5 class="mb-3">saad Charity, Non-Profit Organization</h5>
-
-                        <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae labore
-                            velit aspernatur, cum culpa est facilis, maiores, corporis aliquid molestiae sapiente eum
-                            cupiditate. Quae nesciunt consectetur sit corrupti, libero sint? .</p>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="section-padding section-bg" id="section_2">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                    <img src="images/group-people-volunteering-foodbank-poor-people.jpg"
-                        class="custom-text-box-image img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-6 col-12" dir="rtl">
-                    <div class="custom-text-box">
-                        <h2 class="mb-2">الرؤية</h2>
-
-                        <h5 class="mb-3">saad Charity, Non-Profit Organization</h5>
-
-                        <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae labore
-                            velit aspernatur, cum culpa est facilis, maiores, corporis aliquid molestiae sapiente eum
-                            cupiditate. Quae nesciunt consectetur sit corrupti, libero sint? .</p>
-                    </div>
-                    <div class="custom-text-box">
-                        <h2 class="mb-2">الرسالة</h2>
-
-                        <h5 class="mb-3">saad Charity, Non-Profit Organization</h5>
-
-                        <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae labore
-                            velit aspernatur, cum culpa est facilis, maiores, corporis aliquid molestiae sapiente eum
-                            cupiditate. Quae nesciunt consectetur sit corrupti, libero sint? .</p>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-    </section>
+    @include('Include.vision&message_left')
 
     <section class="volunteer-section section-padding" id="section_4">
         <div class="container">
