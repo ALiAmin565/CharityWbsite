@@ -18,4 +18,31 @@ class HomeController extends Controller
         $sectionLeft=Vision_Message_Left::first();
         return view('home',compact('TopNav','SliderImages','sectionRight','sectionLeft'));
     }
+    public function payment()
+    {
+        $TopNav=TopNav::first();
+        return view('payment',compact('TopNav'));
+    }
+    public function bank()
+    {
+        $TopNav=TopNav::first();
+        return view('bank',compact('TopNav'));
+    }
+    public function soon()
+    {
+        $TopNav=TopNav::first();
+        return view('soon',compact('TopNav'));
+    }
+    public function article()
+    {
+        $SliderImages=SliderImages::first();
+        $TopNav=TopNav::first();
+        return view('article',compact('TopNav','SliderImages'));
+    }
+    public function blogs()
+    {
+        $SliderImages=SliderImages::first();
+        $TopNav=TopNav::first();
+        return view('blogs',compact('TopNav','SliderImages'));
+    }
 }

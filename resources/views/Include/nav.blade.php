@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
     <div class="container" dir="rtl" style="width: 100%;">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/">
             <img src="./logo.png" class="logo img-fluid" alt="  جمعية البرالخيرية بظهران الجنوب " style="width: 12rem;">
             <!-- <span>
                    جمعية البرالخيرية
@@ -20,16 +20,16 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_2">اخبارنا</a>
+                    <a class="nav-link " href="/blogs">اخبارنا</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#section_3">التبرع </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#section_4">التطوع</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_3">التطوع</a>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_4">التبرع </a>
-                </li>
 
                 <!-- <li class="nav-item dropdown">
                         <a class="nav-link click-scroll dropdown-toggle" href="#section_5"
