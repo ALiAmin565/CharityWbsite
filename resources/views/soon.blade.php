@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+@extends('Layout.master')
+@section('PageTitle')
+    @lang('home.PageTitle')
+@endsection
 
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
+@section('content')
 <style>
 body, html {
   height: 100%;
@@ -10,7 +11,8 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('./images/forestbridge.jpg');
+  /* background-image: url('./images/forestbridge.jpg'); */
+  background-color: gray;
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -32,15 +34,6 @@ body, html {
   left: 16px;
 }
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 75%;
-}
-
 hr {
   margin: auto;
   width: 40%;
@@ -51,19 +44,10 @@ hr {
     font-weight: bolder;
 }
 </style>
-<body>
 
-<div class="bgimg">
-  <div class="topleft">
-    <a class="navbar-brand" href="/">
-        <img src="./logo.png" class="logo img-fluid" alt="  جمعية البرالخيرية بظهران الجنوب " style="width: 12rem;">
-    </a>
+  <div class="mt-10 text-center mb-10">
+    <p class="soon">قريباَ</p>
+    {{-- <a class="btn btn-danger mb-10" href="{{ url('/' . $page='payment') }}">الرجوع الي القائمة السابقة</a> --}}
   </div>
-  <div class="middle mt-10">
-    <p class="soon">Comming Soon</p>
-    <a class="btn btn-danger " href="{{ url('/' . $page='payment') }}">Back to Home</a>
-  </div>
-</div>
 
-</body>
-</html>
+@endsection

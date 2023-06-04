@@ -17,7 +17,13 @@
 
 </style>
 <main>
+    <div class="ms-5 mt-5">
+        <a class="fs-4" href="{{ url('/' . $page='payment') }}">الرجوع الي القائمة السابقة</a>
+      </div>
     <div class="col-6 m-auto">
+        <div class="text-center">
+            <h2> <strong>التحويل البنكي </strong></h2>
+        </div>
     <table class="table">
         <tbody>
             <tr class="text-center fw-bolder text-primary">
@@ -40,6 +46,7 @@
 
         </tbody>
       </table>
+
     </div>
 
 

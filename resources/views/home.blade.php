@@ -47,7 +47,7 @@
 
                             </div>
 
-                            <a href="#" class="custom-btn btn">اقرا المزيد</a>
+                            <a href="/article" class="custom-btn btn">اقرا المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
 
                             </div>
 
-                            <a href="#" class="custom-btn btn">اقرا المزيد</a>
+                            <a href="/article" class="custom-btn btn">اقرا المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
 
                             </div>
 
-                            <a href="#" class="custom-btn btn">اقرا المزيد</a>
+                            <a href="/article" class="custom-btn btn">اقرا المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
 
                             </div>
 
-                            <a href="" class="custom-btn btn">اقرا المزيد</a>
+                            <a href="/article" class="custom-btn btn">اقرا المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
 
                             </div>
 
-                            <a href="" class="custom-btn btn">اقرا المزيد</a>
+                            <a href="/article" class="custom-btn btn">اقرا المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
 
                             </div>
 
-                            <a href="" class="custom-btn btn">اقرا المزيد</a>
+                            <a href="/article" class="custom-btn btn">اقرا المزيد</a>
                         </div>
                     </div>
                 </div>
@@ -226,18 +226,18 @@
                         <div class="row">
                             <div class="col-lg-6 col-12">
                                 <input type="text" name="volunteer-name" id="volunteer-name" class="form-control"
-                                    placeholder="Jack Doe" required>
+                                    placeholder="الاسم" required>
                             </div>
 
                             <div class="col-lg-6 col-12">
                                 <input type="email" name="volunteer-email" id="volunteer-email"
-                                    pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com"
+                                    pattern="[^ @]*@[^ @]*" class="form-control" placeholder="البريد الالكتروني"
                                     required>
                             </div>
 
                             <div class="col-lg-6 col-12">
                                 <input type="text" name="volunteer-subject" id="volunteer-subject"
-                                    class="form-control" placeholder="Subject" required>
+                                    class="form-control" placeholder="رقم الهاتف" required>
                             </div>
 
                             <div class="col-lg-6 col-12">

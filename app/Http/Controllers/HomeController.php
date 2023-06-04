@@ -28,4 +28,21 @@ class HomeController extends Controller
         $TopNav=TopNav::first();
         return view('bank',compact('TopNav'));
     }
+    public function soon()
+    {
+        $TopNav=TopNav::first();
+        return view('soon',compact('TopNav'));
+    }
+    public function article()
+    {
+        $SliderImages=SliderImages::first();
+        $TopNav=TopNav::first();
+        return view('article',compact('TopNav','SliderImages'));
+    }
+    public function blogs()
+    {
+        $SliderImages=SliderImages::first();
+        $TopNav=TopNav::first();
+        return view('blogs',compact('TopNav','SliderImages'));
+    }
 }
