@@ -18,7 +18,7 @@
 
 </style>
 <main>
-    @include('Include.slider')
+    @include('includes.slider')
 
     <section class="section-padding" id="section_2" dir="rtl">
         <div class="container">
