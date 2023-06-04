@@ -21,10 +21,10 @@
 </head>
 
 <body id="section_1">
-    {{-- @include('Include.TopNav')
-    @include('Include.nav') --}}
+    @include('Include.TopNav')
+    @include('Include.nav')
     @yield('content')
-    {{-- @include('Include.footer') --}}
+    @include('Include.footer')
 </body>
 
 </html>
