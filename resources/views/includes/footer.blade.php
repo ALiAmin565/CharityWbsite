@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-12 mb-4">
-                <img src="./logo.png" class="logo img-fluid" alt=""
+                <img src="{{ asset('imagesfb/'.$footer->image) }}" class="logo img-fluid" alt=""
                     style="    width: fit-content;                    ">
             </div>
 
@@ -29,7 +29,7 @@
                     <i class="bi-telephone me-2"></i>
 
                     <a href="tel: 305-240-9671" class="site-footer-link">
-                        123456789
+                        {{ $footer->number }}
                     </a>
                 </p>
 
@@ -37,16 +37,16 @@
                     <i class="bi-envelope me-2"></i>
 
                     <a href="mailto:info@yourgmail.com" class="site-footer-link">
-                        saad@saad.org
+                        {{ $TopNav->email }}
                     </a>
                 </p>
 
                 <p class="text-white d-flex mt-3">
                     <i class="bi-geo-alt me-2"></i>
-                    cairo
+                    {{ $TopNav->location }}
                 </p>
 
-                <a href="#" class="custom-btn btn mt-3">Get Direction</a>
+                {{-- <a href="#" class="custom-btn btn mt-3">Get Direction</a> --}}
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-7 col-12">
-                    <p class="copyright-text mb-0">Copyright © 2022 <a href="#">جمعية البرالخيرية</a>
+                    <p class="copyright-text mb-0">Copyright © 2022 <a href="#">{{ $footer->rights }}</a>
 
 
                     </p>
@@ -65,23 +65,23 @@
                 <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
                     <ul class="social-icon">
                         <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-twitter"></a>
+                            <a href="{{ $TopNav->twitter }}" class="social-icon-link bi-twitter"></a>
                         </li>
 
                         <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-facebook"></a>
+                            <a href="{{ $TopNav->facebook }}" class="social-icon-link bi-facebook"></a>
                         </li>
 
                         <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-instagram"></a>
+                            <a href="{{ $TopNav->instagram }}" class="social-icon-link bi-instagram"></a>
                         </li>
 
                         <li class="social-icon-item">
-                            <a href="#" class="social-icon-link bi-linkedin"></a>
+                            <a href="{{ $TopNav->youtube }}" class="social-icon-link bi-youtube"></a>
                         </li>
 
                         <li class="social-icon-item">
-                            <a href="" class="social-icon-link bi-youtube"></a>
+                            <a href="{{ $TopNav->whatsapp }}" class="social-icon-link bi-whatsapp"></a>
                         </li>
                     </ul>
                 </div>

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
     <div class="container" dir="rtl" style="width: 100%;">
         <a class="navbar-brand" href="/">
-            <img src="./logo.png" class="logo img-fluid" alt="  جمعية البرالخيرية بظهران الجنوب " style="width: 12rem;">
+            <img src="{{ asset('imagesfb/'.$footer->image) }}" class="logo img-fluid" alt="  جمعية البرالخيرية بظهران الجنوب " style="width: 12rem;">
             <!-- <span>
                    جمعية البرالخيرية
                     <small style="    font-size: initial;">بظهران الجنوب  </small>

@@ -33,6 +33,14 @@
         <input type="submit" value="Upload">
     </form>
 
+    <h1>Image Upload Loago</h1>
+    <form action="{{ route('uploadImageLogo') }}" method="POST" enctype="multipart/form-data">
+        @csrf
+        <input type="file" name="Image_logo" accept="image/*">
+        <br>
+        <input type="submit" value="Upload">
+    </form>
+
 </body>
 
 </html>

@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Footer;
 use App\Models\TopNav;
 use App\Models\SliderImages;
-use App\Models\Vision_Message_Right;
-use App\Models\Vision_Message_Left;
 use Illuminate\Http\Request;
+use App\Models\Vision_Message_Left;
+use App\Models\Vision_Message_Right;
 
 class HomeController extends Controller
 {
@@ -16,7 +17,8 @@ class HomeController extends Controller
         $SliderImages=SliderImages::first();
         $sectionRight=Vision_Message_Right::first();
         $sectionLeft=Vision_Message_Left::first();
-        return view('home',compact('TopNav','SliderImages','sectionRight','sectionLeft'));
+        $footer=Footer::first();
+        return view('home',compact('TopNav','SliderImages','sectionRight','sectionLeft','footer'));
     }
     public function payment()
     {

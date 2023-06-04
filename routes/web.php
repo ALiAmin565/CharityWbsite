@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\FooterController;
 use App\Models\TopNav;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -34,10 +35,10 @@ Route::get('/upload', function(){
 })->name('upload');
 
 Route::post('/uploadImage',[UploadImageController::class,'upload'])->name('uploadImage');
-
-
 Route::post('/uploadImageSectionRight',[VisionMessageRightController::class,'store'])->name('uploadImageSectionRight');
 Route::post('/uploadImageSectionLeft',[VisionMessageLeftController::class,'store'])->name('uploadImageSectionLeft');
+Route::post('/uploadImageLogo',[FooterController::class,'store'])->name('uploadImageLogo');
+
 
 
 Route::resource('invoices', InvoicesController::class);
