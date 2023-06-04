@@ -21,10 +21,10 @@
 </head>
 
 <body id="section_1">
-    @include('Include.TopNav')
-    @include('Include.nav')
+    @include('includes.TopNav')
+    @include('includes.nav')
     @yield('content')
-    @include('Include.footer')
+    @include('includes.footer')
 </body>
 
 </html>

@@ -208,9 +208,9 @@
         </div>
     </section>
 
-    @include('Include.vision&message_right')
+    @include('includes.vision&message_right')
 
-    @include('Include.vision&message_left')
+    @include('includes.vision&message_left')
 
     <section class="volunteer-section section-padding" id="section_4">
         <div class="container">
