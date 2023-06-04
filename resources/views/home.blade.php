@@ -216,7 +216,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-12" dir="rtl">
                     <h2 class="text-white mb-4">Volunteer</h2>
 
                     <form class="custom-form volunteer-form mb-5 mb-lg-0" action="#" method="post"
@@ -226,7 +226,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-12">
                                 <input type="text" name="volunteer-name" id="volunteer-name" class="form-control"
-                                    placeholder="الاسم" required>
+                                    placeholder="الاسم" required >
                             </div>
 
                             <div class="col-lg-6 col-12">
@@ -241,18 +241,13 @@
                             </div>
 
                             <div class="col-lg-6 col-12">
-                                <div class="input-group input-group-file">
-                                    <input type="file" class="form-control" id="inputGroupFile02">
-
-                                    <label class="input-group-text" for="inputGroupFile02">Upload your CV</label>
-
-                                    <i class="bi-cloud-arrow-up ms-auto"></i>
-                                </div>
+                                    <input type="text" name="volunteer-menu" id="volunteer-subject"
+                                    class="form-control" placeholder="الفرع" required>
                             </div>
                         </div>
 
                         <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message"
-                            placeholder="Comment (Optional)"></textarea>
+                            placeholder="العنوان "required></textarea>
 
                         <button type="submit" class="form-control">Submit</button>
                     </form>

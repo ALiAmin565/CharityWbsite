@@ -4,7 +4,18 @@
 @endsection
 
 @section('content')
+<style>
+    .navbar .nav-item a {
+        font-size: larger;
+        font-weight: 600;
+    }
 
+    .collapse {
+        margin-right: 10rem;
+
+    }
+
+</style>
 <main>
 
     @include('Include.slider')
