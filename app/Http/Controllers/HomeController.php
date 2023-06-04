@@ -12,11 +12,12 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $TopNav=TopNav::first();
-        $SliderImages=SliderImages::first();
-        $sectionRight=Vision_Message_Right::first();
-        $sectionLeft=Vision_Message_Left::first();
-        return view('home',compact('TopNav','SliderImages','sectionRight','sectionLeft'));
+        // $TopNav=TopNav::first();
+        // $SliderImages=SliderImages::first();
+        // $sectionRight=Vision_Message_Right::first();
+        // $sectionLeft=Vision_Message_Left::first();
+        // return view('home',compact('TopNav','SliderImages','sectionRight','sectionLeft'));
+        return "Test C-Panel";
     }
     public function payment()
     {
