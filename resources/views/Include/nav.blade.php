@@ -16,17 +16,17 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto" dir="rtl">
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#top">الصفحة الرئيسية</a>
+                    <a class="nav-link " href="/">الصفحة الرئيسية</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link " href="/blogs">اخبارنا</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_3">التبرع </a>
+                    <a class="nav-link " href=" /payment">التبرع </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_4">التطوع</a>
+                    <a class="nav-link " href="{{ url('/')}}#section_4">التطوع</a>
                 </li>
 
 
@@ -44,11 +44,11 @@
                     </li> -->
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_6"> عن الجمعية</a>
+                    <a class="nav-link click-scroll" href="{{ url('/')}}#section_6"> عن الجمعية</a>
                 </li>
 
                 <li class="nav-item ms-3">
-                    <a class="nav-link custom-btn custom-border-btn btn" href="#">تواصل معانا</a>
+                    <a class="nav-link custom-btn custom-border-btn btn" href="https://wa.me/1147963593">تواصل معانا</a>
                 </li>
             </ul>
         </div>

@@ -217,11 +217,11 @@
             <div class="row">
 
                 <div class="col-lg-6 col-12" dir="rtl">
-                    <h2 class="text-white mb-4">Volunteer</h2>
+                    <h2 class="text-white mb-4">التطوع</h2>
 
                     <form class="custom-form volunteer-form mb-5 mb-lg-0" action="#" method="post"
                         role="form">
-                        <h3 class="mb-4">Become a volunteer today</h3>
+                        <h3 class="mb-4">تطوع معنا الان</h3>
 
                         <div class="row">
                             <div class="col-lg-6 col-12">
@@ -258,9 +258,7 @@
                         class="volunteer-image img-fluid" alt="">
 
                     <div class="custom-block-body text-center">
-                        <h4 class="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
-
-                        <p class="text-white">اتطوع معانا تطوع معانا تطوع معانا</p>
+                        <h4 class="text-white mt-lg-3 mb-lg-3 position-absolute" >اتطوع معانا تطوع معانا تطوع معانا</h4>
                     </div>
                 </div>
 
