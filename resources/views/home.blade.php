@@ -242,12 +242,12 @@
 
                             <div class="col-lg-6 col-12">
                                     <input type="text" name="volunteer-menu" id="volunteer-subject"
-                                    class="form-control" placeholder="الفرع" required>
+                                    class="form-control" placeholder="العنوان" required>
                             </div>
                         </div>
 
                         <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message"
-                            placeholder="العنوان "required></textarea>
+                            placeholder="رسالتك "required></textarea>
 
                         <button type="submit" class="form-control">Submit</button>
                     </form>
