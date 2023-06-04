@@ -15,12 +15,12 @@
         margin-right: 10rem;
 
     }
-    
+
 </style>
 <main>
     @include('Include.slider')
 
-    <section class="section-padding" id="section_3" dir="rtl">
+    <section class="section-padding" id="section_2" dir="rtl">
         <div class="container">
             <div class="row">
 
@@ -175,7 +175,7 @@
         </div>
     </section>
 
-    <section class="section-padding">
+    <section class="section-padding" id="section_3">
         <div class="container">
             <div class="row">
 
@@ -185,7 +185,7 @@
 
                 <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
                     <div class="featured-block d-flex justify-content-center align-items-center">
-                        <a href="#" class="d-block">
+                        <a href="#section_4" class="d-block">
                             <img src="images/icons/hands.png" class="featured-block-image img-fluid" alt="">
 
                             <p class="featured-block-text"> <strong> تطوع معنا </strong></p>
@@ -195,7 +195,7 @@
 
                 <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                     <div class="featured-block d-flex justify-content-center align-items-center">
-                        <a href="#" class="d-block">
+                        <a href="/payment" class="d-block">
                             <img src="images/icons/heart.png" class="featured-block-image img-fluid" alt="">
 
                             <p class="featured-block-text"><strong>تبرع الان</strong> </p>
@@ -207,7 +207,6 @@
             </div>
         </div>
     </section>
-
 
     @include('Include.vision&message_right')
 

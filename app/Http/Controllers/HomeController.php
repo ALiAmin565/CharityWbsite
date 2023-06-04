@@ -23,9 +23,9 @@ class HomeController extends Controller
         $TopNav=TopNav::first();
         return view('payment',compact('TopNav'));
     }
-    public function cash()
+    public function bank()
     {
         $TopNav=TopNav::first();
-        return view('cash',compact('TopNav'));
+        return view('bank',compact('TopNav'));
     }
 }

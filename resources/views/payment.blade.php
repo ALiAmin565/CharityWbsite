@@ -32,7 +32,7 @@
 
                 <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
                     <div class="featured-block d-flex justify-content-center align-items-center">
-                        <a href="#" class="d-block">
+                        <a href="/soon" class="d-block">
                             <img src="images/icons/Visa.png" class="featured-block-image img-fluid" alt="" style="width: 128px">
 
                             <p class="featured-block-text"> <strong> فيزا </strong></p>
@@ -42,10 +42,10 @@
 
                 <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                     <div class="featured-block d-flex justify-content-center align-items-center">
-                        <a href="/cash" class="d-block">
+                        <a href="/bank" class="d-block">
                             <img src="images/icons/cash.png" class="featured-block-image img-fluid" alt="" style="width: 128px">
 
-                            <p class="featured-block-text"><strong> كاش </strong> </p>
+                            <p class="featured-block-text"><strong> تحويل بنكي </strong> </p>
                         </a>
                     </div>
                 </div>
