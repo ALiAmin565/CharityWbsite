@@ -33,7 +33,7 @@ trait ImageProcessing
         $extension = $this->get_mime($img->mime());
         $str_random = Str::random(8);
         $imgpath = $str_random . time() . $extension;
-        $img->save(storage_path('app/public') . '/imagesfb' . $imgpath);
+        $img->save(storage_path('app/imagesfb') . '/' . $imgpath);
         return $imgpath;
     }
 
@@ -93,9 +93,9 @@ trait ImageProcessing
     {
 
         if ($filePath) {
-            if (is_file(Storage::disk('public')->path($filePath))) {
-                if (file_exists(Storage::disk('public')->path($filePath))) {
-                    unlink(Storage::disk('public')->path($filePath));
+            if (is_file(Storage::disk('imagesfb')->path($filePath))) {
+                if (file_exists(Storage::disk('imagesfb')->path($filePath))) {
+                    unlink(Storage::disk('imagesfb')->path($filePath));
                 }
             }
         }
