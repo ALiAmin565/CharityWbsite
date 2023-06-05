@@ -211,7 +211,7 @@
     @include('Include.vision&message_right')
 
     @include('Include.vision&message_left')
-
+    
     <section class="volunteer-section section-padding" id="section_4">
         <div class="container">
             <div class="row">
