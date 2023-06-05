@@ -26,7 +26,7 @@
                                 position: static;
                                 visibility: visible;
                                 width: 450px;
-                                height: 1000px;
+                                height: 610px;
                                 display: block;
                                 flex-grow: 1;
                               "
