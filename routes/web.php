@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Home\TopNavController;
 use App\Http\Controllers\UploadImageController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,7 @@ use App\Http\Controllers\UploadImageController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
