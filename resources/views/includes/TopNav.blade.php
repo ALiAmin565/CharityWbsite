@@ -36,7 +36,7 @@
                     </li>
 
                     <li class="social-icon-item">
-                        <a href="{{ $TopNav->whatsapp }}" class="social-icon-link bi-whatsapp"></a>
+                        <a href="https://wa.me/{{ $TopNav->whatsapp }}" class="social-icon-link bi-whatsapp"></a>
                     </li>
                 </ul>
             </div>
