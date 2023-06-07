@@ -9,18 +9,18 @@
 
             <div class="col-lg-6 col-12">
                 <div class="custom-text-box">
-                    <h2 class="mb-2">{{ $sectionRight->title_vision }}</h2>
+                    <h2 class="mb-2">{{ $sectionRight->titleOne }}</h2>
 
-                    <h5 class="mb-3">{{ $sectionRight->span_vision }}</h5>
+                    <h5 class="mb-3">{{ $sectionRight->spanOne }}</h5>
 
-                    <p class="mb-0">{{ $sectionRight->text_vision }}.</p>
+                    <p class="mb-0">{!! $sectionRight->textOne !!}.</p>
                 </div>
                 <div class="custom-text-box">
-                    <h2 class="mb-2">{{ $sectionRight->title_message }}</h2>
+                    <h2 class="mb-2">{{ $sectionRight->titleTwo }}</h2>
 
-                    <h5 class="mb-3">{{ $sectionRight->span_message }}</h5>
+                    <h5 class="mb-3">{{ $sectionRight->spanTwo }}</h5>
 
-                    <p class="mb-0">{{ $sectionRight->text_message }}.</p>
+                    <p class="mb-0">{!! $sectionRight->textTwo !!}.</p>
                 </div>
 
 

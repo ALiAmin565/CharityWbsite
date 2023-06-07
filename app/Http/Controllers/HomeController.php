@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use App\Models\Footer;
 use App\Models\TopNav;
+use App\Models\SectionLeft;
+use App\Models\SectionRight;
 use App\Models\SliderImages;
 use Illuminate\Http\Request;
-use App\Models\Vision_Message_Left;
-use App\Models\Vision_Message_Right;
+use Illuminate\Support\Facades\DB;
+
 
 class HomeController extends Controller
 {
@@ -15,36 +18,52 @@ class HomeController extends Controller
     {
         $TopNav=TopNav::first();
         $SliderImages=SliderImages::first();
-        $sectionRight=Vision_Message_Right::first();
-        $sectionLeft=Vision_Message_Left::first();
+        $sectionRight=SectionRight::first();
+        $sectionLeft=SectionLeft::first();
         $footer=Footer::first();
-        return view('home',compact('TopNav','SliderImages','sectionRight','sectionLeft','footer'));
+        $lastSixRecords = DB::table('blogs')
+                    ->latest()
+                    ->take(6)
+                    ->get();
+        return view('home',compact('TopNav','SliderImages','sectionRight','sectionLeft','footer','lastSixRecords'));
     }
     public function payment()
     {
         $TopNav=TopNav::first();
-        return view('payment',compact('TopNav'));
+        $footer=Footer::first();
+        return view('payment',compact('TopNav','footer'));
     }
     public function bank()
     {
         $TopNav=TopNav::first();
-        return view('bank',compact('TopNav'));
+        $footer=Footer::first();
+        return view('bank',compact('TopNav','footer'));
     }
     public function soon()
     {
         $TopNav=TopNav::first();
-        return view('soon',compact('TopNav'));
+        $footer=Footer::first();
+        return view('soon',compact('TopNav','footer'));
     }
     public function article()
     {
         $SliderImages=SliderImages::first();
         $TopNav=TopNav::first();
-        return view('article',compact('TopNav','SliderImages'));
+        $footer=Footer::first();
+        return view('article',compact('TopNav','SliderImages','footer'));
     }
     public function blogs()
     {
-        $SliderImages=SliderImages::first();
+        $blogs=Blog::get();
         $TopNav=TopNav::first();
-        return view('blogs',compact('TopNav','SliderImages'));
+        $footer=Footer::first();
+        return view('blogs',compact('blogs','TopNav','footer'));
+    }
+    public function singleBlog($id)
+    {
+        $blog=Blog::find($id);
+        $TopNav=TopNav::first();
+        $footer=Footer::first();
+        return view('singleblog',compact('blog','TopNav','footer'));
     }
 }
